@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './Directory_78.scss';
-import items from './menu-item-data';
+import axios from 'axios';
+//import items from './menu-item-data';
 import MenuItem_78 from '../components/MenuItem_78';
 
 
 const Directory_78 = () => {
-    const [menuItems, setMenuItems] = useState(items);
+    const [menuItems, setMenuItems] = useState([]);
     console.log('menuItems', menuItems);
     return (
         <div className="directory-menu">
