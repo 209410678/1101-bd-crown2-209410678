@@ -1,6 +1,7 @@
 import React from 'react';
 import './CollectionPreview_78.scss';
 
+
 const CollectionPreview_78 = () => {
   return (
     <div>
@@ -103,19 +104,33 @@ const CollectionPreview_78 = () => {
   );
 };
 
-/*const CollectionPreview_78 = ({ name, price, remoteUrl, size }) => {
+/*
+const CollectionPreview_78 = ({ name, price, remoteUrl,size}) => {
   return (
     <div>
-      <div classNameNameName="collection-preview`">
-        <h1 classNameNameName="title">Jackets</h1>
-        <div classNameNameName="preview">
-          <div classNameNameName="collection-item">
-            <img classNameNameName="image" src={remoteUrl} />
-            <div classNameNameName="collection-footer">
-              <span classNameNameName="name">{name}</span>
-              <span classNameNameName="price">{price}</span>
+      <div className={`${size}collection-preview`}>
+        <h1 className="title">Jackets</h1>
+        <div className="preview">
+          <div className="collection-item">
+            <img className="image" src={remoteUrl} />
+            <div className="collection-footer">
+              <span className="name">{name}</span>
+              <span className="price">{price}</span>
             </div>
-            <button classNameNameName="custom-button">Add to Cart</button>
+            <button className="custom-button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div className={`${size}collection-preview`}>
+        <h1 className="title">Sneakers</h1>
+        <div className="preview">
+          <div className="collection-item">
+            <img className="image" src={remoteUrl} />
+            <div className="collection-footer">
+              <span className="name">{name}</span>
+              <span className="price">{price}</span>
+            </div>
+            <button className="custom-button">Add to Cart</button>
           </div>
         </div>
       </div>

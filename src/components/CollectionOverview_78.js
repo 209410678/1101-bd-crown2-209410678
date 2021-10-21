@@ -11,8 +11,9 @@ const CollectionOverview_78 = () => {
   );
 };
 
+
 /*const CollectionOverview_78 = () => {
-  const [collectionItems, setCollectionItems] = useState(items);
+  const [collectionItems, setCollectionItems] = useState(items,);
   console.log('collectionItems', collectionItems);
   return (
     <div className="collection-overview">
