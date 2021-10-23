@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import App_78 from './App_78';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <App_78 />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
