@@ -1,5 +1,5 @@
 import React from 'react';
-import Directory2_78 from '../components/Directory2_78';
+import Directory2_78 from '../components/Directory_78';
 import './Homepage_78.scss';
 
 const Homepage_78 = () => {
